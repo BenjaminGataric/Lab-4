@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 .flex-container{
     display: flex;
     background-color: blue;
+    flex-wrap: wrap;
 }
 .flex-item{
     background-color: grey;
@@ -29,12 +33,12 @@
 .grow2 {
     flex-grow: 2;
 }
+.grow4{
+    flex-grow: 4;
+}
 .justify-evenly{
     justify-content: space-evenly;
 }
 .wrap{
     flex-wrap: wrap;
-}
-.shrink{
-    flex-shrink: 1;
 }
