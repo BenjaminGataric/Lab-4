@@ -1,14 +1,16 @@
-.container, .container2, .contianer3{
+.container, .container2, .container3{
     background-color: blue;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 .container{
     column-gap: 10px;
 }
 .container2{
     column-gap: 15px;
+}
+.container3{
+    column-gap: 12px;
 }
 .box{
     padding: 10px;
@@ -18,8 +20,15 @@
     padding: 15px;
     margin: 15px;
 }
+#big-box{
+    flex: 2;
+}
+.box3{
+    padding: 12px;
+    margin: 12px;
+}
 .box, .box2, .box3{
-    flex: 1;
+    flex: 1 0 0;
     height: 50px;
     background-color: grey;
 }
