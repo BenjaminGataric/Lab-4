@@ -1,0 +1,25 @@
+.container, .container2, .contianer3{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container{
+    column-gap: 10px;
+}
+.container2{
+    column-gap: 15px;
+}
+.box{
+    padding: 10px;
+    margin: 10px;
+}
+.box2{
+    padding: 15px;
+    margin: 15px;
+}
+.box, .box2, .box3{
+    flex: 1;
+    height: 50px;
+    background-color: grey;
+}
