@@ -1,11 +1,14 @@
 .flex-container{
     display: flex;
     background-color: blue;
+    gap: 0.5rem;
 }
 .flex-item{
     background-color: grey;
     text-align: center;
     flex: 1;
+    height: 50px;
+    width: 20vw;
 }
 .border{
     border: 2px solid black;
@@ -28,11 +31,11 @@
 .grow2 {
     flex-grow: 2;
 }
+.grow4{
+    flex-grow: 4;
+}
 .justify-evenly{
     justify-content: space-evenly;
-}
-.justify-around{
-    justify-content: space-around;
 }
 .wrap{
     flex-wrap: wrap;
